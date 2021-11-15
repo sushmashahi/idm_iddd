@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def imshow(X, resize=None):
-    img = np.resize(X) #code to resize the image
+    res = cv2.resize(X, dsize=(54, 140), interpolation=cv2.INTER_CUBIC)
     print(plt.imshow(img)) #code to print the image
-    #browse_images(img) #to diplay the image interact using matplotlib and ipywidgets
+  
     pass
