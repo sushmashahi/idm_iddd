@@ -1,1 +1,1 @@
-from idm.function import *
+from .function import *
