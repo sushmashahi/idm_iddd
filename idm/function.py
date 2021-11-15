@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 def imshow(X, resize=None):
     res = cv2.resize(X, (54, 140), interpolation=cv2.INTER_CUBIC)
-    print(plt.imshow(res)) #code to print the image
+    print(res) #code to print the image
     pass
     
     
