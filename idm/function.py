@@ -16,6 +16,6 @@ def browse_images(digits):
 
 def imshow(X, resize=None):
     img=np.resize(X,(2,3)) #code to resize the image
-    prin(plt.imshow(img)) #code to print the image
+    print(plt.imshow(img)) #code to print the image
     browse_images(img) #to diplay the image interact using matplotlib and ipywidgets
     pass
